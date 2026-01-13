@@ -7,6 +7,7 @@ from flask import Flask, app
 
 # Load environment variables
 load_dotenv()
+# Initialize Flask app
 app = Flask(__name__)
 base_url = os.getenv("URL_FOR_API")
 # Make a GET request to the REST API
